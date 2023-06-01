@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color:antiquewhite;
+    }
+    .gallery{
+        padding-left: 100px;
+        padding-top: 30px;
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+        gap: 30px;
+        }
+        .row{
+        position: relative;
+        transition: all .40s;
+        padding: 0%;
+        margin-bottom: 5px;
+        border-radius: 50%;
+
+        }
+        
+        .row img{
+        width: 80%;
+        height:80%;
+        transition: all .40s;
+        align-items: baseline;
+        display: flex;
+        border-radius: 10px;
+        border: 1px solid #141313;
+        }
+        .row img:hover{
+        transform: scaleX(-1);
+        }
+        .head{
+            text-align: center;
+            color:brown;
+        }
+        h3{
+           padding-left: 35px;
+            font-style: italic;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+            color:darkblue
+        }
+
+
+    
+
+</style>
+<body>
+    <header class="head">
+        <h1>Image Gallery</h1>
+    </header>
+    
+    <div class="gallery">
+        
+        
+        <div class="row">
+            <img src="IPL winners.jpg" alt="" >
+            <div class="desc">
+                <h3>IPL Champions</h3>
+            </div>
+        </div>
+        
+        <div class="row">
+            <img src="vdk.jpg" alt="" >
+            <div class="desc">
+                <h3>Vijay Devarkonda</h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="apj.jpeg" alt="" >
+            <div class="desc">
+                <h3>Abdul kalam</h3>
+            </div>
+           
+        </div>
+        <div class="row">
+            <img src="vk.jpeg" alt="" >
+            <div class="desc">
+                <h3>Virat Kholi</h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="jw.jpg" alt="" >
+            <div class="desc">
+                <h3>Jadeja Rivaba</h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="mahanati.jpg" alt="" >
+            <div class="desc">
+                <h3>Mahanati</h3>
+            </div>
+           
+        </div>
+        <div class="row">
+            <img src="md.jpg" alt="" >
+            <div class="desc">
+                <h3>Winnig Moments</h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="pspk.jpg" alt="" >
+            <div class="desc">
+                <h3>Pawan Kalyan</h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="edison.jpeg" alt="" >
+            <div class="desc">
+                <h3>Thomas Edison</h3>
+            </div>
+           
+        </div>
+        <div class="row">
+            <img src="Jd.jfif" alt="" >
+            <div class="desc">
+                <h3>Ravindra Jadeja</h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="wsh.jpeg" alt="" >
+            <div class="desc">
+                <h3>William Shakshpere</h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="tnt.jpeg" alt="" >
+            <div class="desc">
+                <h3>Newton</h3>
+            </div>
+           
+        </div>
+        <div class="row">
+            <img src="eng.jpeg" alt="" >
+            <div class="desc">
+                <h3>Engineering</h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="logo.jpeg" alt="" >
+            <div class="desc">
+                <h3>CMR Logo</h3>
+            </div>
+           
+        </div>
+        <div class="row">
+            <img src="library.jpeg" alt="" >
+            <div class="desc">
+                <h3>CMR Library</h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="cmr.jpg" alt="" >
+            <div class="desc">
+                <h3>CMR College</h3>
+            </div>
+        </div>
+    </div>
+   </body>
+</html>
